@@ -1,6 +1,6 @@
 <?php
 if($title=""){
- $title="Anti Phishing Education";
+ $title="NoPhish";
 }
 ?>
 <!DOCTYPE html>
