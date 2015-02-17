@@ -9,7 +9,7 @@ $success=false;
 <div class="content">
 <?php
 if(isset($_REQUEST["first_word"])){
-if($_REQUEST["first_word"]==$first_domain_word && $_REQUEST["chars"] == substr($_REQUEST["fragment"],-$number_fragment_charsfragment)){
+if($_REQUEST["first_word"]==$first_domain_word && strtolower($_REQUEST["chars"]) == strtolower(substr($_REQUEST["fragment"],-$number_fragment_charsfragment))){
 ?>
 <p>Herzlichen Gl&uuml;ckwunsch. Das war richtig</p>
 <p>Clicke den Link, um <a href="phishedu://level1finished">Zur&uuml;ck in die App</a> zu gelangen.</p>
