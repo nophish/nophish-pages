@@ -12,7 +12,7 @@ if($title=""){
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <?php if($redirect!=""){ ?>
-    <meta http-equiv="refresh" content="10; url=<?php echo $redirect; ?>" />
+    <meta http-equiv="refresh" content="5; url=<?php echo $redirect; ?>" />
     <?php } ?>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
